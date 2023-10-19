@@ -8,6 +8,7 @@ body {
   background-image: url("repas2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 } 
 
 a {
