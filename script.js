@@ -45,6 +45,7 @@ function modals(meals) {
           <ul>
             ${getIngredientsList(meal)}
           </ul>
+          <p> "${meal.strInstructions}"</p>
           <a href="#" class="modal_close">&times;</a>
         </div>
       </div>
@@ -96,6 +97,4 @@ function closeModal(modalId) {
   const modal = document.getElementById(modalId);
   modal.style.display = "none";
 }
-
-
 
